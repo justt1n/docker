@@ -5,7 +5,7 @@ services:
   app:
     build:
       context: ./source
-      dockerfile: Dockerfile
+      dockerfile: ./../Dockerfile
     image: digitalocean.com/php
     container_name: app
     restart: unless-stopped
